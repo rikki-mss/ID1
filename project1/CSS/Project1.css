@@ -1,8 +1,21 @@
+@font-face {
+    font-family:bromello;
+    src:url(../bromello.ttf);
+}
+@font-face {
+    font-family:London;
+    src:url(../LondonMM.ttf);
+}
+@font-face {
+    font-family:LondonB;
+    src:url(../LondonBetween.ttf);
+}
 body {
-    margin: 0;
     width:100%;
-        background-image:url("../images/background.png");
-        background-repeat: repeat-y;
+    margin: 0;
+        background-image:url("../images/newbackground.png");
+        background-repeat:repeat-y;
+        background-position:center;
         background-size: contain;
     background-color:aliceblue;  
 }
@@ -11,14 +24,16 @@ img#banner1 {
     margin: 0;
 }
 img#image1 {
+    width: 60%;
     padding-left: 20%;
     padding-right: 20%;
-    width: 60%;
+    
 }
 img#image2 {
+    width: 60%;
     padding-left: 20%;
     padding-right: 20%;
-    width: 60%;
+    
 }
 img#banner2 {
     width:100%;
@@ -28,10 +43,15 @@ h4 {
     text-align: center;
 }
 p {
-    font-family: 'Raleway', sans-serif;
-    padding-left: 22%;
     width:55%;
+    font-family: London;
+    padding-left: 22%;
+    text-indent: 1em;
+    line-height: 1.4;
 }
 p#lyrics {
+    font-family:LondonB;
     text-align:center;
+    text-indent: 0;
+    font-style: italic;
 }
