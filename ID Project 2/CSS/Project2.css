@@ -1,0 +1,27 @@
+body {
+    width:100%;
+    /*background-image:url(..//Instagram/background.jpg);*/
+    background-color: lightslategrey;
+}
+img#banner {
+    width:100%;
+}
+img#me {
+    width:25%;
+}
+h1 {
+    color:lightgrey;
+}
+h2 {
+    color:lightgrey;
+}
+h3 {
+    color:lightgrey;
+}
+h4 {
+    color:lightgrey;
+}
+p {
+    width:50%;
+    color: whitesmoke;
+}
