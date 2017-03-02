@@ -4,41 +4,103 @@
     src:url(../FallingRain.ttf);
 }
 
+@font-face {
+    font-family:phoenix;
+    src:url(../PhoenixScriptFLF.ttf);
+}
+
+@font-face {
+    font-family:old;
+    src:url(../OldTypefaces.ttf)
+}
+
 body {
     margin:0;
     width:100%;
-    /*background-image:url("..//Instagram/background.png");*/
-    background-color: lightslategrey;
+    background-image:url("..//images/BG2.png");
+    background-color: dimgrey;
 }
 
+/*IMAGES*/
 img#banner {
     width:100%;
 }
 
 img#me {
     width:25%;
+    margin:10px;
+    border-style: double;
+    border-color: #4d4a55;
+    padding: 5px
 }
 
+/*TEXT*/
 h1, h2, h3, h4 {
-    color:lightgrey;
-    font-family:rain;
+    margin: 15px;
+    color: #500007;
+    font-family:phoenix;
+    font-weight: 300;
 }
 
-ul {
-    list-style-type:circle;
+h1, h2 {
+    margin: .5%;
+    font-size: 3em;
 }
 
-a:hover {
-    color: darkslategrey;
-}
-
-a:visited {
-    color:lightslategrey
+h4 {
+    font-size:1.5em;
+    color: #500007;
 }
 
 p {
+    margin:15px;
     width:50%;
+    font-family: 'Quattrocento', serif;
     color: whitesmoke;
+}
+
+section#projects {
+    float:right;
+    padding-right: 400px;
+    margin-top: -147px;
+}
+
+/*LISTS*/
+ul {
+    list-style-image: url(..//images/Rainbullet.png);
+    color: black;
+    font-weight: 100;
+}
+
+/*LINKS*/
+a {
+    color:whitesmoke;
+}
+
+a:hover {
+    color: darkblue;
+}
+
+/*FOOTER*/
+footer {
+    text-align: center;
+    align-content: center;
+    border-top-style: double;
+    border-top-color: #4d4a55;
+}
+footer p {
+    position: relative;
+    left: 24%;
+}
+
+footer a, footer a:visited {
+    background-color: purple;
+    color: whitesmoke;
+    padding: 10px 15px;
+    margin-left: 5px;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
 }
 
 /* MOBILE */
@@ -50,7 +112,7 @@ p {
         padding: 2%, 2%;
     }
     
-    img {
-        75%;
+    img, img#me {
+        95%;
     }
 }
