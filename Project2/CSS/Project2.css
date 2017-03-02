@@ -58,11 +58,17 @@ p {
     font-family: 'Quattrocento', serif;
     color: whitesmoke;
 }
+section {
+    width: 50%;
+    display:inline-block;
+}
 
 section#projects {
     float:right;
-    padding-right: 400px;
-    margin-top: -147px;
+}
+
+section#about {
+    width:100%;
 }
 
 /*LISTS*/
@@ -109,10 +115,10 @@ footer a, footer a:visited {
     
     body {
         width: 80%;
-        padding: 2%, 2%;
+        padding: 2% 2%;
     }
     
     img, img#me {
-        95%;
+        width:50%;
     }
 }
