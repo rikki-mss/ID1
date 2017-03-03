@@ -9,10 +9,10 @@
     src:url(../PhoenixScriptFLF.ttf);
 }
 
-/*@font-face {
+@font-face {
     font-family:old;
     src:url(../OldTypefaces.ttf)
-}*/
+}
 
 body {
     margin:0;
@@ -158,11 +158,78 @@ footer a, footer a:visited {
 @media only screen and (max-width:500px) {
     
     body {
-        width: 80%;
+        margin: 0;
+        width: 100%;
         padding: 2% 2%;
     }
     
-    img, img#me {
-        width:50%;
+    h1 {
+        text-align: left;
+        font-size: 2.2em;
+    }
+  
+    h2 {
+        text-align: left;
+        margin-top: -2.4em;
+        margin-bottom: 2px;
+        font-size: 2em;
+    }
+    
+    img {
+        width: 100%;
+    }
+    
+    img#me {
+        visibility: hidden;
+    }
+    
+   section#about p {
+        width:80%;
+        margin: 10px;
+        font-size: 1em;
+        font-family: old, sans-serif;
+        color:black;
+    }
+    
+    section#introtowork {
+        width: 60%;
+        align-content: center;
+    }
+    
+    section#introtowork p {
+        width: 85%;
+        margin-left: 5%;
+        text-align: center;
+    }
+    section#exercises {
+        width: 50%;
+        display: inline-table;
+    }
+    
+    section#projects {
+        width: 50%;
+        margin-left: 20%;
+    }
+    
+    footer  {
+        width: 100%
+    }
+    
+    footer h4 {
+        font-size: 1.1em;
+        margin-bottom: -.5em;
+    }
+    
+    footer p {
+        width: 100%;
+        margin-top: .5em;
+        align-content: center;
+        line-height: 2.5em;
+        text-align: left;
+        font-size: 1em;
+    }
+    
+    footer a, footer a:visited {
+        padding: 2%;
     }
 }
