@@ -80,10 +80,6 @@ section {
     width: 25%;
     display:inline-table;
 }
-section#exercises{
-   margin-left: 20%;
-    margin-right: 15%;
-}
 
 section#about {
     width:100%;
@@ -113,6 +109,11 @@ section#introtowork p {
     color: black;
 }
 
+section#exercises{
+   margin-left: 20%;
+    margin-right: 15%;
+}
+
 /*LISTS*/
 ul {
     list-style-image: url(..//images/Rainbullet.png);
@@ -128,7 +129,11 @@ a {
 }
 
 a:hover {
-    color: #500007;
+    color: whitesmoke;
+}
+
+a:visited {
+    color: #500007; 
 }
 
 /*FOOTER*/
@@ -138,6 +143,7 @@ footer {
     border-top-style: double;
     border-top-color: #4d4a55;
 }
+
 footer p {
     position: relative;
     left: 24%;
@@ -154,7 +160,6 @@ footer a, footer a:visited {
 }
 
 /* MOBILE */
-
 @media only screen and (max-width:500px) {
     
     body {
@@ -163,6 +168,7 @@ footer a, footer a:visited {
         padding: 2% 2%;
     }
     
+    /*TEXT*/
     h1 {
         text-align: left;
         font-size: 2.2em;
@@ -175,6 +181,7 @@ footer a, footer a:visited {
         font-size: 2em;
     }
     
+    /*IMAGES*/
     img {
         width: 100%;
     }
@@ -183,6 +190,7 @@ footer a, footer a:visited {
         visibility: hidden;
     }
     
+    /*SECTION STYLING*/
    section#about p {
         width:80%;
         margin: 10px;
@@ -211,6 +219,7 @@ footer a, footer a:visited {
         margin-left: 20%;
     }
     
+    /*FOOTER*/
     footer  {
         width: 100%
     }
