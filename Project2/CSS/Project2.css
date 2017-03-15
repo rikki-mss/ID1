@@ -94,16 +94,17 @@ section#about p {
 }
 
 section#introtowork {
-    width: 800px;
-    align-content: center;
+    width: 60%;
     margin-left: 20%;
     border-top-style: double;
     border-color: #4d4a55;
 }
 
 section#introtowork p {
+    width: 65%;
+    margin-top: 1%;
+    margin-left: 17%;
     text-align: center;
-    margin-left: 26%;
     font-style: italic;
     font-weight: 400;
     color: black;
@@ -201,12 +202,13 @@ footer a, footer a:visited {
     
     section#introtowork {
         width: 60%;
+        margin-left: 10%;
         align-content: center;
     }
     
     section#introtowork p {
         width: 85%;
-        margin-left: 5%;
+        margin: 0;
         text-align: center;
     }
     section#exercises {
