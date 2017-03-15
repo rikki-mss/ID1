@@ -38,19 +38,19 @@ img#me {
 
 /*TEXT*/
 h1, h2, h3, h4 {
-    margin: 15px;
+    margin: 5px 0 15px 0;
     color: #500007;
     font-family:phoenix;
     font-weight: 300;
 }
 
 h1, h2 {
-    margin: 1%;
     text-align: center;
     font-size: 3em;
 }
 
 h1 {
+    border-bottom-width: 100%;
     border-bottom-style: double;
     border-bottom-color: #4d4a55;
 }
@@ -139,6 +139,7 @@ a:visited {
 
 /*FOOTER*/
 footer {
+    /*margin: 1%;*/
     text-align: center;
     align-content: center;
     border-top-style: double;
