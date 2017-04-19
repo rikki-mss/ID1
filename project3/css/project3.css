@@ -20,19 +20,27 @@ nav {
     margin: 0;
     width: 17%;
     padding: 10px 5px 10px 15px;
-    height: 100vh;
-    text-align: left;
-    background-color:steelblue;
+    height: 200vh;
 }
-
 ul {
     list-style-type: none;
-    color:azure;
+    width: 200px;
+    margin: 0;
+    padding: 0;
+    background-color: azure;
+
 }
 
-ul a {
+li a {
+    display: block;
+    color: #0c001d;
+    padding: 8px 16px;
     text-decoration: none;
-    color:azure;
+}
+
+li a:hover {
+    background-color: #0c001d;
+    color: azure;
 }
 
 /*IMAGES*/
@@ -42,11 +50,15 @@ img#banner {
     width: 80%;
 }
 
-img#fiction {
-    width:15%;
-    margin: 0 5px 0 5px;
-}
 /*TEXT*/
+
+h2, h3 {
+    color: azure;
+    text-align: center;
+    font-family: indira;
+    font-size: 4em;
+}
+
 p {
     margin-left: 25%;
     width: 60%;
@@ -55,6 +67,56 @@ p {
     color: azure;
 }
 
-aside {
+/*PDF LINKS*/
+
+article a {
+    display: block;
+    width: 100px;
+    margin-left: 50%;
+    padding: 8px 16px;
+    border-radius: 5px;
+    background-color: azure;
+    color: #0c001d;
+    text-decoration: none;
+    text-align: center;
+}
+
+article a:hover {
+    background-color: black;
     color: azure;
+
+}
+
+/*MOBILE LAYOUT*/
+@media only screen and (max-width:500px) {
+
+    body {
+        margin: 0;
+        width: 100%;
+    }
+    
+    nav {
+        width: 10%;
+        height: 20vh;
+    }
+
+    img {
+        visibility: hidden;
+    }
+
+    h2, h3 {
+        font-size: 2em;
+    }
+
+    p {
+        width: 80%;
+        margin: 5px 10px 5px 10px;
+        font-size: 1em;
+    }
+    
+    article {
+        width: 25%;
+        margin-left: 10%;
+    }
+
 }
