@@ -1,3 +1,75 @@
 /*font-family: 'Cabin', sans-serif;
 font-family: 'Rambla', sans-serif;
 font-family: 'Alegreya Sans SC', sans-serif;*/
+
+/*DESKTOP LAYOUT*/
+
+body {
+    width: 100%;
+    margin: 0;
+    background-color: lightgray;
+}
+
+/*SECTION FORMATTING*/
+
+section {
+    width: 45%;
+    display: inline-table;
+}
+
+section#classes {
+    margin-left: 5%;
+}
+
+section#findme {
+    display: block;
+    width: 25%;
+    margin: 25px;
+    padding: 10px;
+    border-style: groove;
+}
+
+/*TEXT*/
+
+header#hdr {
+    width: 100%;
+}
+
+h1, h2 {
+    font-family: 'Cabin', sans-serif;
+}
+
+h1 {
+    width: 55%;
+    font-size: 2em;
+    border-bottom-style: groove;
+    /*border-bottom-color: black;*/
+    line-height: 2em;
+}
+
+h1#title {
+    margin: 25px;
+}
+
+ul {
+    list-style-type: circle;
+    font-family: 'Rambla', sans-serif;
+}
+
+/*MOBILE LAYOUT*/
+@media only screen and (max-width:500px) {
+    
+    body {
+        margin: 0;
+        width: 100%;
+    }
+    
+    section {
+        margin: 25px;
+        width: 100%;
+    }
+    
+    section#findme {
+        width: 50%;
+    }
+}
